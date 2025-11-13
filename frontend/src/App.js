@@ -1,16 +1,14 @@
 import React from 'react';
-import"./App.css";
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import UserList from './components/userList';
+import { Routes, Route } from 'react-router-dom';
+import Login from './components/login.js';
+import UserList from './components/userList.js';            
 
 function App() {
-return (
-<div>
-<h1>React + MySQL Example</h1>
-
-<UserList />
-</div>
-);
+  return (
+    <Routes>
+      <Route path="/" element={<UserList />} />
+    </Routes>
+  );
 }
 
 export default App;

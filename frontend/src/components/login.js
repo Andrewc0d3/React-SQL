@@ -9,17 +9,19 @@ function Login() {
     const [error, setError] = useState("");
 
     return(
-        <div>
+        <div className="Login">
             <h2>Inicio de sesion</h2>
             <label>Email:</label>
-            <br/>
+            <br />
             <input type="text"></input>
 
             <label>Password:</label>
-            <br/>
+            <br />
             <input type="text"></input>
-
+            <br />
             <button>Login</button>
         </div>
     )
 }
+
+export default Login;

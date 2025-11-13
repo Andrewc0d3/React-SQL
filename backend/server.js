@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use('/api/usuarios', usuariosRoutes);
-app.use('/api/autenticacion, autRoutes');
+app.use('/api/autenticacion', autRoutes);
 
 app.get('/', (req, res) => {
 res.json({ message: 'API de Usuarios funcionando correctamente' });
