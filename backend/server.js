@@ -5,6 +5,7 @@ const autRoutes = require('./routes/autenticacion');
 const registroRoutes = require('./routes/registro');
 const actualizarRoutes = require('./routes/actualizar');
 const eliminarRoutes = require('./routes/eliminar');
+const listarRoutes = require('./routes/listar');
 
 const app = express();
 
@@ -18,6 +19,7 @@ app.use('/api/auth', autRoutes);
 app.use('/api/usuarios', registroRoutes);
 app.use('/api/usuarios', actualizarRoutes);
 app.use('/api/usuarios', eliminarRoutes);
+app.use('/api/usuarios', listarRoutes);
 
 app.get('/', (req, res) => {
     res.json({ message: 'API de Usuarios funcionando correctamente' });
