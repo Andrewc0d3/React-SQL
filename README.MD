@@ -1,6 +1,6 @@
 *Integrantes:
 
-Andres Sanchez
+Andres Sanchez /n
 Nicolas Urrego
 
 # Empresa Azure S.A
