@@ -1,0 +1,70 @@
+/* ---------------------------
+   Estilos para Home
+   Paleta: #07020D #5DB7DE #F1E9DB #A39B8B #716A5C
+----------------------------*/
+
+/* Fondo general */
+body {
+  background-color: #07020D;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Contenedor principal */
+.Home {
+  width: 90%;
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #F1E9DB;
+  border-radius: 15px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+/* Títulos */
+.Home h1 {
+  color: #07020D;
+  margin-bottom: 15px;
+}
+
+.Home h2 {
+  color: #716A5C;
+  margin-top: 25px;
+}
+
+/* Texto */
+.Home p {
+  color: #716A5C;
+  font-size: 17px;
+}
+
+/* Menú */
+.Home li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Botones estilo menú */
+.Home ul {
+  background-color: #5DB7DE;
+  color: #07020D;
+  padding: 15px;
+  margin: 12px auto;
+  width: 70%;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.25s ease-in-out;
+  user-select: none;
+}
+
+/* Hover */
+.Home ul:hover {
+  background-color: #A39B8B;
+  color: #F1E9DB;
+  transform: scale(1.03);
+}

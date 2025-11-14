@@ -1,0 +1,82 @@
+/* ------------------------------------------
+   Estilos para UpdateData
+   Paleta: #07020D #5DB7DE #F1E9DB #A39B8B #716A5C
+-------------------------------------------*/
+
+/* Fondo global */
+body {
+  background-color: #07020D;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Contenedor principal */
+.UpdateData {
+  width: 90%;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #F1E9DB;
+  border-radius: 16px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+/* Título */
+.UpdateData h2 {
+  color: #07020D;
+  margin-bottom: 25px;
+}
+
+/* Etiquetas */
+.UpdateData label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #716A5C;
+}
+
+/* Inputs */
+.UpdateData input {
+  width: 85%;
+  padding: 12px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 2px solid #A39B8B;
+  background-color: #F1E9DB;
+  font-size: 15px;
+  transition: 0.25s ease;
+}
+
+.UpdateData input:focus {
+  outline: none;
+  border-color: #5DB7DE;
+  box-shadow: 0 0 6px rgba(93, 183, 222, 0.7);
+}
+
+/* Botones */
+.UpdateData button {
+  background-color: #5DB7DE;
+  color: #07020D;
+  padding: 12px 20px;
+  margin: 20px 10px 10px 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.UpdateData button:hover {
+  background-color: #A39B8B;
+  color: #F1E9DB;
+  transform: scale(1.05);
+}
+
+/* Mensajes */
+.UpdateData p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #07020D;
+}

@@ -1,5 +1,83 @@
-.Login{
+/* ---------------------------
+   PALETA DE COLORES
+   #07020D  #5DB7DE  #F1E9DB  #A39B8B  #716A5C
+----------------------------*/
 
-    justify-content: center;
-    
+/* Fondo general */
+body {
+    background-color: #07020D;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor del Login */
+.Login {
+    background-color: #F1E9DB;
+    width: 380px;
+    margin: 80px auto;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.35);
+    text-align: center;
+}
+
+/* Título */
+.Login h2 {
+    color: #07020D;
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+/* Etiquetas */
+.Login label {
+    color: #716A5C;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin-left: 5px;
+}
+
+/* Inputs */
+.Login input {
+    width: 93%;
+    padding: 12px;
+    margin: 8px 0 18px 0;
+    border-radius: 8px;
+    border: 2px solid #A39B8B;
+    background-color: #F1E9DB;
+    color: #07020D;
+    font-size: 16px;
+    transition: border-color 0.25s ease;
+}
+
+.Login input:focus {
+    border-color: #5DB7DE;
+    outline: none;
+}
+
+/* Botones */
+.Login button {
+    background-color: #5DB7DE;
+    color: #07020D;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.25s ease-in-out;
+}
+
+.Login button:hover {
+    background-color: #A39B8B;
+    color: #F1E9DB;
+}
+
+/* Texto inferior */
+.Login p {
+    margin-top: 20px;
+    color: #716A5C;
+    font-size: 15px;
 }

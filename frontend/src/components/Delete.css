@@ -1,0 +1,88 @@
+/* ------------------------------------------
+   Estilos para Delete.js
+   Paleta: #07020D #5DB7DE #F1E9DB #A39B8B #716A5C
+-------------------------------------------*/
+
+/* Contenedor principal */
+.Delete {
+  width: 90%;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #F1E9DB;
+  border-radius: 16px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+/* Título */
+.Delete h2 {
+  color: #07020D;
+  margin-bottom: 25px;
+}
+
+/* Botón regresar */
+.Delete button {
+  background-color: #5DB7DE;
+  color: #07020D;
+  padding: 10px 18px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.Delete button:hover {
+  background-color: #A39B8B;
+  color: #F1E9DB;
+  transform: scale(1.05);
+}
+
+/* Tabla de usuarios */
+.Delete table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: left;
+}
+
+/* Encabezado de tabla */
+.Delete th {
+  background-color: #5DB7DE;
+  color: #07020D;
+  padding: 12px;
+  border-bottom: 2px solid #A39B8B;
+}
+
+/* Filas de tabla */
+.Delete td {
+  padding: 12px;
+  border-bottom: 1px solid #A39B8B;
+  color: #07020D;
+}
+
+/* Filas alternadas */
+.Delete tbody tr:nth-child(even) {
+  background-color: #F1E9DB;
+}
+
+/* Botón de eliminar */
+.Delete td button {
+  background-color: #716A5C;
+  color: #F1E9DB;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.25s ease;
+}
+
+.Delete td button:hover {
+  background-color: #A39B8B;
+  color: #07020D;
+  transform: scale(1.05);
+}
