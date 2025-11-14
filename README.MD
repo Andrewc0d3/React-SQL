@@ -1,30 +1,27 @@
-# 🧩 Nombre del Proyecto
+*Integrantes:
 
-Descripción corta y clara del proyecto.  
-Explica qué hace, para quién es y por qué existe.
+Andres Sanchez
+Nicolas Urrego
+
+# Empresa Azure S.A
+
+##  Características
+
+- Creacion, modificacion, listado y eliminacion de usuario 
+- Ingreso a la base de datos
+- Diseño responsivo 
 
 ---
 
-## 🚀 Características
-
-- ✔️ Función 1
-- ✔️ Función 2
-- ✔️ Función 3
-
----
-
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 - Node.js
-- Express
 - React
 - MySQL
-- TypeScript  
-(O edita según tu proyecto)
 
 ---
 
-## 📦 Instalación
+## Instalación
 
 Clona el repositorio:
 
