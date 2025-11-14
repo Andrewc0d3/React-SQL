@@ -14,7 +14,7 @@ function Delete() {
     }, []);
 
     const cargarUsuarios = () => {
-        Axios.get("http://localhost:5001/api/usuarios/listar")
+        Axios.get("http://localhost:5001/api/usuarios")
             .then((res) => {
                 setUsuarios(res.data);
             })
