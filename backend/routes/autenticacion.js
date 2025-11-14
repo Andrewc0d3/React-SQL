@@ -8,7 +8,7 @@ router.post('/login', (req, res) => {
   console.log("📩 Email recibido:", email);
   console.log("🔑 Password recibido:", password);
 
-  // Validación básica
+  // Validación
   if (!email || !password) {
     return res.status(400).json({ message: 'Faltan datos' });
   }

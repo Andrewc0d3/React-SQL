@@ -22,11 +22,11 @@ function Login() {
 
             // Guardar ID en localStorage
             localStorage.setItem("userId", userId);
-
             console.log("ID guardado:", userId);
             alert("Inicio de sesion exitoso!");
             navigate("/inicio")
         }).catch((err) => {
+            
             setError("Credenciales incorrectas");
             alert("Credenciales incorrectas");
             console.log(err);
